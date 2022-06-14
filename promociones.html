@@ -4,11 +4,44 @@
     <head>
         <title> promociones</title>
 
+        <link rel="stylesheet" href="css/bootstrap.css">
+
         <link rel="stylesheet" href="nuevo css.css">
+        
+        <link rel="stylesheet" href="imagenes-productos/favicon.png" >
+   
+       </head>
        
     </head>
        <body>
 
+    <!--BOOTSTRAP -->
+
+        
+    <ul class="nav justify-content-end" style="background-color: #ce92ae;">
+            
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+    
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sobre Nosotros </a>
+        </li>
+    
+        <li class="nav-item">
+            <a class="nav-link" href="#">Productos</a>
+          </li>
+    
+        <li class="nav-item">
+            <a class="nav-link" href="#">Promociones</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+      </ul>
+    
+      
+    <!--FIN-->
         <header class="header-flex">
 
             <h1> Promociones </h1>
@@ -17,11 +50,11 @@
     
         <nav class="menu-flex">
             
-          <span><a href="../index.html"> Home </a></span>
-          <span><a href="productos.html"> productos</a></span>
-          <span><a href="promociones.html" >promociones </a></span>
-          <span><a href="sobre-nosotros.html">sobre nosotros</a></span>
-          <span><a href="contacto.html">contacto</a></span>
+            <span><a href="index.html"> Home </a></span>
+            <span><a href="productos.html"> productos</a></span>
+            <span><a href="promociones.html" >promociones </a></span>
+            <span><a href="sobre-nosotros.html">sobre nosotros</a></span>
+            <span><a href="contacto.html">contacto</a></span>
     
         </nav>
 
@@ -35,16 +68,45 @@
             desde el 10/05 hasta el 25/05 con la compra de un Portamacetas o cortinas te llevas de 
             regalo una mini decoracion lunar! Hasta agotar stock! 
         </h6>
+          <!--BOOTSTRAP-->
 
-        <img class="imagenLunar" src="imagenes-productos/decoracion lunar.jpg" width="300" alt="decoracion">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imagenes-productos/1000x300-1.gif" class="d-block w-100" alt="uno">
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes-productos/1000x300-2.gif" class="d-block w-100" alt="dos">
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes-productos/1000x300-3.gif" class="d-block w-100" alt="tres">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        
+       
+        <div class="text-center">
+
+            <img class="imagenLunar"src="imagenes-productos/decoracion lunar.jpg" class="rounded" alt="...">
+          </div>
 
         <h6>Ademas,con las siguientes tarjetas participas de fantasticos descuentos! </h6>
 
-        <img src="imagenes-productos/descuentos-disco-online-marzo-2017-tarjetas.jpg"width="1200" 
+        <img  src="imagenes-productos/descuentos-disco-online-marzo-2017-tarjetas.jpg"width="1200" 
             alt="descuentos">
 
-           
+           <!--FIN-->
         
+    
+    <script src="js/bootstrap.js"></script>  
 
        </body>
 
