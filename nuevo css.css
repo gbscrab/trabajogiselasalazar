@@ -1,0 +1,444 @@
+/*fuente de letra*/
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Fasthand&family=Londrina+Shadow&family=Major+Mono+Display&family=Rampart+One&family=Sevillana&family=Smythe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Fasthand&family=Londrina+Shadow&family=Major+Mono+Display&family=Rampart+One&family=Satisfy&family=Sevillana&family=Smythe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+
+/*rutas*/
+
+nav 
+    {text-align: center;
+    font-size: 30px; 
+    
+}
+a {
+    color: rgb(126, 99, 177);
+    text-decoration: none;
+    font-family:'Bebas Neue';
+
+}
+span {
+    
+    margin: 35px;
+    background-image:
+    
+    padding: 10px 20px;
+    margin-top: 0px;
+   
+     }
+
+h3{
+    color:rgb(182, 54, 96);
+    font-size: 35px; 
+    font-family:'Major Mono Display';
+    text-align: center;
+    padding: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-image:url(https://www.arquitecturaydiseno.es/medio/2022/03/19/apertura-macrame_84504a26_1280x794.jpg);
+    background-position: 60px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+/*promociones*/
+
+.imagenLunar { 
+    width: 350px; 
+    height: 550px; 
+    margin-left:400px;
+    padding: 50px;
+}
+
+
+h6 {
+    color: rgb(216, 84, 128);
+    font-size: 30px;
+    font-family: 'Bebas Neue';
+    margin-left: 100px; 
+    padding: 50px;
+
+}
+body{ background-image: url("https://img.freepik.com/vector-gratis/fondo-invierno-hojas-pinceles-color-pastel_220290-42.jpg?w=2000");}
+
+
+/*RESPONSIVE DESIGN*/
+
+/*desktop*/
+
+@media (min-width:1024px) {
+
+    /*propiedades de los titulos*/
+
+   h1{
+    color:palevioletred;
+    font-size: 60px; 
+    font-family:'Major Mono Display';
+    margin-left: 350px; 
+    margin-top: 30px;
+
+    }
+   h2 {
+    color: rgb(216, 84, 128);
+    font-size: 30px;
+    font-family: 'Satisfy';
+    margin-left: 700px; 
+}
+
+.descripcion-flex {
+    display: flex;
+    justify-content: center;
+    padding:10px;    
+}
+
+
+h4{ 
+    color:rgb(182, 54, 96);
+    font-size: 35px; 
+    font-family:'Major Mono Display';
+
+}
+
+h5{color:rgb(92, 47, 112);
+    font-size: 20px;
+    font-family: 'Bebas Neue';
+}
+
+/*propiedades de las descripciones de productos*/
+article {
+    text-align:center;
+    font-size: 30px;
+    margin: 100px;
+}
+p{
+    color: rgb(167, 71, 130);
+    font-size: 20px;
+    font-family: 'Bebas Neue';
+
+}
+
+
+
+/*DEGRADE EN CONTACTOS*/
+
+.contactos { 
+
+    background-color: #f89b9e;
+    background-image: linear-gradient(315deg, #f89b9e 0%, #c9d9ff 74%);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+/*propiedades de las imagenes-productos*/
+/*TRANSICION*/
+.imagenDos{ 
+    width: 150px; 
+    height: 250px; 
+    margin: 20px;
+    transition: all 2s; 
+}
+.imagenDos:hover {
+    width:300px;
+    height: 500px;
+    border: solid 20px palevioletred;
+}
+
+.imagenIndex {
+    width: 150px; 
+    height: 250px; 
+    margin: 30px;
+    margin-left: 60px;
+    border:solid 15px  transparent;
+    border-image: linear-gradient(315deg, #fc89ac 0%, #b86d29 74%);;
+    transition: all 2s;     
+}
+
+
+.imagenIndex:hover{
+    width: 225px;
+    height: 375px;
+}
+
+.imagenContacto{
+    width: 350px; 
+    height: 250px; 
+    margin-left: 100px;
+    transform: translateX(350px)
+}
+.logo {
+    width: 75px;
+    height:150px;
+    margin-left:1000px;
+    transform: translateY(-1030px);
+}
+/*fondo imagen*/
+
+
+
+
+
+
+
+div{
+    background-color: rgb(250, 244, 249);
+    margin: 15px;
+    color: rgb(216, 84, 128);
+    font-size: 30px;
+    font-family: 'Satisfy';
+}
+
+
+#
+ 
+
+
+
+
+/*grid y sus areas*/
+
+#grilla-areas {
+              display: grid;
+              grid-template-areas: 
+              
+              "cabeza cabeza cabeza"
+              "cuello cuello cuello"
+              "productos productos"
+              "productosDos productosDos";
+             
+ }
+
+#header {
+       grid-area:cabeza;
+}
+#footer {
+       grid-area:pie;
+}
+#productos {
+       grid-area:productos;
+}
+#productosDos {
+     grid-area: productosDos;
+} 
+nav{
+    grid-area: menus;
+}
+
+#subtitulo {
+    grid-area:cuello;
+}
+
+.menu-flex {
+    display: flex;
+    justify-content: center;   
+}
+
+
+.flex-productos{
+     display: flex;
+    justify-content: center;
+    padding: 0px;
+    flex-wrap:;
+}
+
+
+
+}
+
+
+/*tablet*/
+
+
+
+@media (min-width:481px) and (max-width:1023px) {
+
+
+    h1{
+        color:palevioletred;
+        font-size: 60px; 
+        font-family:'Major Mono Display';
+        margin-left: 150px; 
+        margin-top: 30px;
+    
+        }
+       h2 {
+        color: rgb(216, 84, 128);
+        font-size: 30px;
+        font-family: 'Satisfy';
+        margin-left: 500px; 
+    }
+
+    h4{ 
+            color:rgb(182, 54, 96);
+            font-size: 25px; 
+            font-family:'Major Mono Display';
+        
+        }
+
+    h5{
+            color:rgb(92, 47, 112);
+            font-size: 15px;
+            font-family: 'Bebas Neue';
+
+        }
+
+        .menu-flex {
+            display: flex;
+            justify-content: center;   
+        }
+    
+     /*propiedades de las descripciones de productos*/
+        
+     article {
+        text-align:center;
+        font-size: 30px;
+        margin: 100px;
+        }
+
+    p{
+         color: rgb(167, 71, 130);
+         font-size: 30px;
+         font-family: 'Bebas Neue';
+
+        }
+
+
+/*propiedades de las imagenes-productos*/
+
+.imagenDos{ 
+    width: 150px; 
+    height: 250px; 
+    margin: 20px;}
+
+.imagenIndex {
+    width: 150px; 
+    height: 250px; 
+    margin: 30px;
+    margin-left: 60px;
+    border:solid 15px  #f9d29d ;
+    transition: all 2s;     
+    }
+
+.imagenIndex:hover{
+    width: 225px;
+    height: 375px;
+    }
+
+
+
+
+
+    #grilla-areas {
+        display: grid;
+        grid-template-areas: 
+        
+        "cabeza cabeza cabeza"
+        "cuello cuello cuello"
+        "productos productos"
+        "productosDos productosDos";
+       
+    }
+}
+
+
+/*smartphone*/
+
+@media (max-width:480px) {
+        h1{
+        color:palevioletred;
+        font-size: 40px; 
+        font-family:'Major Mono Display';
+        margin-left: 20px; 
+        margin-top: 30px;
+        }
+    
+        h2 {
+            color: rgb(216, 84, 128);
+            font-size: 25px;
+            font-family: 'Satisfy';
+            margin-left: 200px;
+            padding: 10x; 
+        }
+
+        h4{ 
+            color:rgb(182, 54, 96);
+            font-size: 25px; 
+            font-family:'Major Mono Display';
+        
+        }
+
+        h5{
+            color:rgb(92, 47, 112);
+            font-size: 15px;
+            font-family: 'Bebas Neue';
+
+        }
+        .menu-flex {
+            display: flex;
+            flex-flow: column nowrap; 
+            padding: 10px;
+            
+        }
+        /*propiedades de las descripciones de productos*/
+        article {
+        text-align:center;
+        font-size: 30px;
+        margin: 100px;
+        }
+        p{
+         color: rgb(167, 71, 130);
+         font-size: 30px;
+         font-family: 'Bebas Neue';
+
+        }
+
+
+/*propiedades de las imagenes-productos*/
+
+.imagenDos{ 
+    width: 150px; 
+    height: 250px; 
+    margin: 20px;}
+
+.imagenIndex {
+    width: 150px; 
+    height: 250px; 
+    margin: 30px;
+    margin-left: 60px;
+    border:solid 15px  #f9d29d ;
+    transition: all 2s;     
+    }
+
+.imagenIndex:hover{
+    width: 225px;
+    height: 375px;
+    }
+
+
+
+
+
+    #grilla-areas {
+        display: grid;
+        grid-template-areas: 
+        
+        "cabeza"
+        "cuello "
+        "productos"
+        "productosDos ";
+
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr;
+
+}
+}
