@@ -75,6 +75,13 @@ body{ background-image: url("https://img.freepik.com/vector-gratis/fondo-inviern
 @media (min-width:1024px) {
 
     /*propiedades de los titulos*/
+    .header-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+
 
    h1{
     color:palevioletred;
@@ -196,38 +203,7 @@ div{
     font-family: 'Satisfy';
 }
 
-/*grid y sus areas*/
 
-#grilla-areas {
-              display: grid;
-              grid-template-areas: 
-              
-              "cabeza cabeza cabeza"
-              "cuello cuello cuello"
-              "productos productos productos "
-              "productosDos productosDos productosDos";
-             
- }
-
-#header {
-       grid-area:cabeza;
-}
-#footer {
-       grid-area:pie;
-}
-#productos {
-       grid-area:productos;
-}
-#productosDos {
-     grid-area: productosDos;
-} 
-nav{
-    grid-area: menus;
-}
-
-#subtitulo {
-    grid-area:cuello;
-}
 
 .menu-flex {
     display: flex;
@@ -331,6 +307,7 @@ nav{
     height: 375px;
     }
 
+    
 }
 
 
