@@ -485,6 +485,20 @@ p {
 
 }
 
+.imagenContacto {
+    width: 350px;
+    height: 250px;
+    
+}
+.consulta {
+    width: 420px;
+    height: 260px;
+}
+.emailNombre {
+    width:400px;
+    height: 20px;
+}
+
 
 #grilla-areas {
     display: grid;
