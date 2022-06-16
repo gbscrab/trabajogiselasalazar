@@ -5,43 +5,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
-*{
-    margin:0;
-    padding:0;
-    font-family:sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
     box-sizing: border-box;
 }
 
 /*rutas*/
 
-nav 
-    {text-align: center;
-    font-size: 30px; 
-    
+nav {
+    text-align: center;
+    font-size: 30px;
+
 }
+
 a {
     color: rgb(126, 99, 177);
     text-decoration: none;
-    font-family:'Bebas Neue';
+    font-family: 'Bebas Neue';
 
 }
+
 span {
-    
+
     margin: 35px;
     padding: 10px 20px;
     margin-top: 0px;
-   
-     }
 
-h3{
-    color:rgb(182, 54, 96);
-    font-size: 35px; 
-    font-family:'Major Mono Display';
+}
+
+h3 {
+    color: rgb(99, 63, 81);
+
+    font-size: 35px;
+    font-family: 'Bebas Neue';
     text-align: center;
     padding: 50px;
     margin-top: 20px;
     margin-bottom: 40px;
-    background-image:url(https://www.arquitecturaydiseno.es/medio/2022/03/19/apertura-macrame_84504a26_1280x794.jpg);
+    background-image: url(https://www.arquitecturaydiseno.es/medio/2022/03/19/apertura-macrame_84504a26_1280x794.jpg);
     background-position: 60px;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -49,24 +52,21 @@ h3{
 
 /*promociones*/
 
-.imagenLunar { 
-    width: 350px; 
-    height: 550px; 
-    margin-left:400px;
-    padding: 50px;
-    background-image: url("https://img.freepik.com/vector-gratis/fondo-invierno-hojas-pinceles-color-pastel_220290-42.jpg?w=2000"); ;
-}
+
 
 
 h6 {
     color: rgb(216, 84, 128);
     font-size: 30px;
     font-family: 'Bebas Neue';
-    margin-left: 100px; 
+    margin-left: 100px;
     padding: 50px;
 
 }
-body{ background-image: url("https://img.freepik.com/vector-gratis/fondo-invierno-hojas-pinceles-color-pastel_220290-42.jpg?w=2000");}
+
+body {
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-invierno-hojas-pinceles-color-pastel_220290-42.jpg?w=2000");
+}
 
 
 /*RESPONSIVE DESIGN*/
@@ -76,7 +76,7 @@ body{ background-image: url("https://img.freepik.com/vector-gratis/fondo-inviern
 @media (min-width:1024px) {
 
     /*propiedades de los titulos*/
-    .header-flex{
+    .header-flex {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
@@ -84,159 +84,182 @@ body{ background-image: url("https://img.freepik.com/vector-gratis/fondo-inviern
 
 
 
-   h1{
-    color:palevioletred;
-    font-size: 60px; 
-    font-family:'Major Mono Display';
-    
-    padding-top: 30px;
+    h1 {
+        color: palevioletred;
+        font-size: 60px;
+        font-family: 'Major Mono Display';
+
+        padding-top: 30px;
 
     }
-   h2 {
-    color: rgb(216, 84, 128);
-    font-size: 30px;
-    font-family: 'Satisfy';
-    
-}
 
-.descripcion-flex {
-    display: flex;
-    justify-content: center;
-    padding:10px;    
-}
+    h2 {
+        color: rgb(216, 84, 128);
+        font-size: 30px;
+        font-family: 'Satisfy';
 
-
-h4{ 
-    color:rgb(182, 54, 96);
-    font-size: 35px; 
-    font-family:'Major Mono Display';
-
-}
-
-h5{color:rgb(92, 47, 112);
-    font-size: 20px;
-    font-family: 'Bebas Neue';
-}
-
-/*propiedades de las descripciones de productos*/
-article {
-    text-align:center;
-    font-size: 30px;
-    margin: 100px;
-}
-p{
-    color: rgb(167, 71, 130);
-    font-size: 20px;
-    font-family: 'Bebas Neue';
-
-}
-
-
-
-/*DEGRADE EN CONTACTOS*/
-
-.contactos { 
-
-    background-color: #f89b9e;
-    background-image: linear-gradient(315deg, #f89b9e 0%, #c9d9ff 74%);
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-}
-/*ANIMACION EN INDEX*/
-
-.animacion {
-    animation-name: texto;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-}
-
-
-@keyframes texto {
-    from {
-        transform:translateX(1200px);
     }
-    to {
-    transform:translate(0);
-    } 
-}
+
+    .descripcion-flex {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+
+
+    h4 {
+        color: rgb(182, 54, 96);
+        font-size: 35px;
+        font-family: 'Major Mono Display';
+
+    }
+
+    h5 {
+        color: rgb(92, 47, 112);
+        font-size: 20px;
+        font-family: 'Bebas Neue';
+    }
+
+    /*propiedades de las descripciones de productos*/
+    article {
+        text-align: center;
+        font-size: 30px;
+        margin: 100px;
+    }
+
+    p {
+        color: rgb(167, 71, 130);
+        font-size: 20px;
+        font-family: 'Bebas Neue';
+
+    }
+
+
+
+    /*DEGRADE EN CONTACTOS*/
+
+    .contactos {
+
+        background-color: #f89b9e;
+        background-image: linear-gradient(315deg, #f89b9e 0%, #c9d9ff 74%);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    /*ANIMACION EN INDEX*/
+
+    .animacion {
+        animation-name: texto;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+    }
+
+
+    @keyframes texto {
+        from {
+            transform: translateX(1200px);
+        }
+
+        to {
+            transform: translate(0);
+        }
+    }
 
 
 
 
-/*propiedades de las imagenes-productos*/
-/*TRANSICION*/
-.imagenDos{ 
-    width: 150px; 
-    height: 250px; 
-    margin: 20px;
-    transition: all 2s; 
-}
-.imagenDos:hover {
-    width:300px;
-    height: 500px;
-    border: solid 20px palevioletred;
-}
+    /*propiedades de las imagenes-productos*/
+    /*TRANSICION*/
+    .imagenDos {
+        width: 150px;
+        height: 250px;
+        margin: 20px;
+        transition: all 2s;
+    }
 
-.imagenIndex {
-    width: 150px; 
-    height: 250px; 
-    margin: 30px;
-    margin-left: 60px;
-    border:solid 15px  transparent;
-    border-image: linear-gradient(315deg, #fc89ac 0%, #b86d29 74%);;
-    transition: all 2s;     
-}
+    .imagenDos:hover {
+        width: 300px;
+        height: 500px;
+        border: solid 20px palevioletred;
+    }
 
+    .imagenIndex {
+        width: 150px;
+        height: 250px;
+        margin: 30px;
+        margin-left: 60px;
+        border: solid 15px transparent;
+        border-image: linear-gradient(315deg, #fc89ac 0%, #b86d29 74%);
+        ;
+        transition: all 2s;
+    }
 
-.imagenIndex:hover{
-    width: 225px;
-    height: 375px;
-}
+    .imagenLunar {
+        width: 350px;
+        height: 550px;
+        margin-left: 400px;
+        padding: 50px;
 
-.imagenContacto{
-    width: 350px; 
-    height: 250px; 
-    margin-left: 100px;
-    transform: translateX(350px)
-}
-.logo {
-    width: 75px;
-    height:150px;
-    margin-left:1000px;
-    transform: translateY(-1030px);
-}
-/*fondo imagen*/
+    }
 
+    .imagenIndex:hover {
+        width: 225px;
+        height: 375px;
+    }
 
+    .imagenContacto {
+        width: 350px;
+        height: 250px;
+        margin-left: 100px;
+        transform: translateX(350px)
+    }
 
-
-
-
-
-div{
-    background-color: rgb(250, 244, 249);
-    margin: 15px;
-    color: rgb(216, 84, 128);
-    font-size: 30px;
-    font-family: 'Satisfy';
-}
-
-
-
-.menu-flex {
-    display: flex;
-    justify-content: center;   
-}
+    .logo {
+        width: 75px;
+        height: 150px;
+        margin-left: 1000px;
+        transform: translateY(-1030px);
+    }
+    
+    .ofertas {
+        width: 1000px; 
+        height: 590px; 
+        margin:40px;
+    }
 
 
-.flex-productos{
-     display: flex;
-    flex-flow: column;
-    padding-top: -10px;
-}
+    /*fondo imagen*/
+
+
+
+
+
+
+
+    div {
+        background-color: rgb(250, 244, 249);
+        margin: 15px;
+        color: rgb(216, 84, 128);
+        font-size: 30px;
+        font-family: 'Satisfy';
+    }
+
+
+
+    .menu-flex {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .flex-productos {
+        display: flex;
+        flex-flow: column;
+        padding-top: -10px;
+    }
 
 
 
@@ -249,7 +272,7 @@ div{
 
 @media (min-width:481px) and (max-width:1023px) {
 
-    .header-flex{
+    .header-flex {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
@@ -257,85 +280,102 @@ div{
 
 
 
-    h1{
-        color:palevioletred;
-        font-size: 40px; 
-        font-family:'Major Mono Display';
-    
+    h1 {
+        color: palevioletred;
+        font-size: 40px;
+        font-family: 'Major Mono Display';
+
         padding-top: 30px;
-    
-        }
-       h2 {
+
+    }
+
+    h2 {
         color: rgb(216, 84, 128);
         font-size: 30px;
         font-family: 'Satisfy';
-        
+
     }
 
-    h4{ 
-            color:rgb(182, 54, 96);
-            font-size: 25px; 
-            font-family:'Major Mono Display';
-        
-        }
+    h4 {
+        color: rgb(182, 54, 96);
+        font-size: 25px;
+        font-family: 'Major Mono Display';
 
-    h5{
-            color:rgb(92, 47, 112);
-            font-size: 15px;
-            font-family: 'Bebas Neue';
+    }
 
-        }
+    h5 {
+        color: rgb(92, 47, 112);
+        font-size: 15px;
+        font-family: 'Bebas Neue';
 
-        .menu-flex {
-            display: flex;
-            flex-flow: column;  
-        }
-        div{
-            background-color: rgb(250, 244, 249);
-            margin: 15px;
-            color: rgb(216, 84, 128);
-            font-size: 30px;
-            font-family: 'Satisfy';
-        }
-        
-     /*propiedades de las descripciones de productos*/
-        
-     article {
-        text-align:center;
+    }
+
+    .menu-flex {
+        display: flex;
+        flex-flow: column;
+    }
+
+    div {
+        background-color: rgb(250, 244, 249);
+        margin: 15px;
+        color: rgb(216, 84, 128);
+        font-size: 30px;
+        font-family: 'Satisfy';
+    }
+
+    /*propiedades de las descripciones de productos*/
+
+    article {
+        text-align: center;
         font-size: 30px;
         margin: 100px;
-        }
-
-    p{
-         color: rgb(167, 71, 130);
-         font-size: 30px;
-         font-family: 'Bebas Neue';
-
-        }
-
-
-/*propiedades de las imagenes-productos*/
-
-        .imagenDos{ 
-    width: 150px; 
-    height: 250px; 
-    margin: 20px;}
-
-        .imagenIndex {
-    width: 150px; 
-    height: 250px; 
-    margin: 30px;
-    margin-left: 60px;
-    border:solid 15px  #f9d29d ;
-    transition: all 2s;     
     }
 
-        .imagenIndex:hover{
-    width: 225px;
-    height: 375px;
+    p {
+        color: rgb(167, 71, 130);
+        font-size: 30px;
+        font-family: 'Bebas Neue';
+
     }
 
+
+    /*propiedades de las imagenes-productos*/
+
+    .imagenDos {
+        width: 150px;
+        height: 250px;
+        margin: 20px;
+    }
+
+    .imagenIndex {
+        width: 150px;
+        height: 250px;
+        margin: 30px;
+        margin-left: 60px;
+        border: solid 15px #f9d29d;
+        transition: all 2s;
+    }
+
+    .imagenIndex:hover {
+        width: 225px;
+        height: 375px;
+    }
+
+    .imagenLunar {
+        width: 350px;
+        height: 550px;
+        margin-left: 400px;
+        padding: 50px;
+
+    }
+
+    .ofertas {
+        width: 770px; 
+        height: 590px; 
+        margin:40px;
+       
     
+    }
 }
 
 
@@ -343,103 +383,119 @@ div{
 
 @media (max-width:480px) {
 
-    .header-flex{
+    .header-flex {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
     }
 
-        h1{
-        color:palevioletred;
-        font-size: 40px; 
-        font-family:'Major Mono Display';
-        
-        }
-    
-        h2 {
-            color: rgb(216, 84, 128);
-            font-size: 25px;
-            font-family: 'Satisfy';
-            margin-left: 200px;
-            padding: 10x; 
-        }
+    h1 {
+        color: palevioletred;
+        font-size: 40px;
+        font-family: 'Major Mono Display';
 
-        h4{ 
-            color:rgb(182, 54, 96);
-            font-size: 25px; 
-            font-family:'Major Mono Display';
-        
-        }
+    }
 
-        h5{
-            color:rgb(92, 47, 112);
-            font-size: 15px;
-            font-family: 'Bebas Neue';
+    h2 {
+        color: rgb(216, 84, 128);
+        font-size: 25px;
+        font-family: 'Satisfy';
+        margin-left: 200px;
+        padding: 10x;
+    }
 
-        }
-        .menu-flex {
-            display: flex;
-            flex-flow: column;  
-        }
-        div{
-            background-color: rgb(250, 244, 249);
-            margin: 15px;
-            color: rgb(216, 84, 128);
-            font-size: 30px;
-            font-family: 'Satisfy';
-        }
-        
-            
-        }
-        /*propiedades de las descripciones de productos*/
-        article {
-        text-align:center;
+    h4 {
+        color: rgb(182, 54, 96);
+        font-size: 25px;
+        font-family: 'Major Mono Display';
+
+    }
+
+    h5 {
+        color: rgb(92, 47, 112);
+        font-size: 15px;
+        font-family: 'Bebas Neue';
+
+    }
+
+    .menu-flex {
+        display: flex;
+        flex-flow: column;
+    }
+
+    div {
+        background-color: rgb(250, 244, 249);
+        margin: 15px;
+        color: rgb(216, 84, 128);
         font-size: 30px;
-        margin: 100px;
-        }
-        p{
-         color: rgb(167, 71, 130);
-         font-size: 30px;
-         font-family: 'Bebas Neue';
+        font-family: 'Satisfy';
+    }
 
-        }
+
+}
+
+/*propiedades de las descripciones de productos*/
+article {
+    text-align: center;
+    font-size: 30px;
+    margin: 100px;
+}
+
+p {
+    color: rgb(167, 71, 130);
+    font-size: 30px;
+    font-family: 'Bebas Neue';
+
+}
 
 
 /*propiedades de las imagenes-productos*/
 
-.imagenDos{ 
-    width: 150px; 
-    height: 250px; 
-    margin: 20px;}
+.imagenDos {
+    width: 150px;
+    height: 250px;
+    margin: 20px;
+}
 
 .imagenIndex {
-    width: 150px; 
-    height: 250px; 
+    width: 150px;
+    height: 250px;
     margin: 30px;
     margin-left: 60px;
-    border:solid 15px  #f9d29d ;
-    transition: all 2s;     
-    }
+    border: solid 15px #f9d29d;
+    transition: all 2s;
+}
 
-.imagenIndex:hover{
+.imagenIndex:hover {
     width: 225px;
     height: 375px;
-    }
+}
+
+.imagenLunar { 
+    width: 350px; 
+    height: 550px; 
+    padding: 50px;
+    
+}
+.ofertas {
+    width: 370px; 
+    height: 190px; 
+    margin:40px;
+   
+
+}
 
 
+#grilla-areas {
+    display: grid;
+    grid-template-areas:
 
-
-
-    #grilla-areas {
-        display: grid;
-        grid-template-areas: 
-        
         "cabeza"
         "cuello "
         "productos"
         "productosDos ";
 
-        grid-template-columns: 100%;
-        grid-template-rows: 1fr;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr;
 
 }
