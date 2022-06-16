@@ -81,7 +81,7 @@ body{ background-image: url("https://img.freepik.com/vector-gratis/fondo-inviern
     font-size: 60px; 
     font-family:'Major Mono Display';
     margin-left: 350px; 
-    margin-top: 30px;
+    padding-top: 30px;
 
     }
    h2 {
@@ -252,20 +252,27 @@ nav{
 
 @media (min-width:481px) and (max-width:1023px) {
 
+    .header-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+
 
     h1{
         color:palevioletred;
-        font-size: 60px; 
+        font-size: 40px; 
         font-family:'Major Mono Display';
-        margin-left: 150px; 
-        margin-top: 30px;
+    
+        padding-top: 30px;
     
         }
        h2 {
         color: rgb(216, 84, 128);
         font-size: 30px;
         font-family: 'Satisfy';
-        margin-left: 500px; 
+        
     }
 
     h4{ 
@@ -284,7 +291,7 @@ nav{
 
         .menu-flex {
             display: flex;
-            justify-content: column;   
+            flex-flow: column;  
         }
     
      /*propiedades de las descripciones de productos*/
@@ -327,18 +334,21 @@ nav{
 }
 
 
-
-
-
 /*smartphone*/
 
 @media (max-width:480px) {
+
+    .header-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
         h1{
         color:palevioletred;
         font-size: 40px; 
         font-family:'Major Mono Display';
-        margin-left: 20px; 
-        margin-top: 30px;
+        
         }
     
         h2 {
@@ -364,8 +374,9 @@ nav{
         }
         .menu-flex {
             display: flex;
-            flex-flow: column nowrap; 
-            padding: 10px;
+            flex-flow: column;  
+        }
+    
             
         }
         /*propiedades de las descripciones de productos*/
