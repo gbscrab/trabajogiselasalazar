@@ -290,7 +290,14 @@ div{
             display: flex;
             flex-flow: column;  
         }
-    
+        div{
+            background-color: rgb(250, 244, 249);
+            margin: 15px;
+            color: rgb(216, 84, 128);
+            font-size: 30px;
+            font-family: 'Satisfy';
+        }
+        
      /*propiedades de las descripciones de productos*/
         
      article {
@@ -374,7 +381,14 @@ div{
             display: flex;
             flex-flow: column;  
         }
-    
+        div{
+            background-color: rgb(250, 244, 249);
+            margin: 15px;
+            color: rgb(216, 84, 128);
+            font-size: 30px;
+            font-family: 'Satisfy';
+        }
+        
             
         }
         /*propiedades de las descripciones de productos*/
