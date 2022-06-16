@@ -54,6 +54,7 @@ h3{
     height: 550px; 
     margin-left:400px;
     padding: 50px;
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-invierno-hojas-pinceles-color-pastel_220290-42.jpg?w=2000"); ;
 }
 
 
@@ -87,7 +88,7 @@ body{ background-image: url("https://img.freepik.com/vector-gratis/fondo-inviern
     color:palevioletred;
     font-size: 60px; 
     font-family:'Major Mono Display';
-    margin-left: 350px; 
+    
     padding-top: 30px;
 
     }
@@ -95,7 +96,7 @@ body{ background-image: url("https://img.freepik.com/vector-gratis/fondo-inviern
     color: rgb(216, 84, 128);
     font-size: 30px;
     font-family: 'Satisfy';
-    margin-left: 700px; 
+    
 }
 
 .descripcion-flex {
@@ -144,6 +145,26 @@ p{
     justify-content: space-between;
 
 }
+/*ANIMACION EN INDEX*/
+
+.animacion {
+    animation-name: texto;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes texto {
+    from {
+        transform:translateX(1200px);
+    }
+    to {
+    transform:translate(0);
+    } 
+}
+
+
+
 
 /*propiedades de las imagenes-productos*/
 /*TRANSICION*/
@@ -213,8 +234,8 @@ div{
 
 .flex-productos{
      display: flex;
-    justify-content: center;
-    padding: 0px;
+    flex-flow: column;
+    padding-top: -10px;
 }
 
 
@@ -407,5 +428,4 @@ div{
         grid-template-columns: 100%;
         grid-template-rows: 1fr;
 
-}
 }
